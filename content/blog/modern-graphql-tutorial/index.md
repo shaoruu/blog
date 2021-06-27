@@ -3,6 +3,8 @@ title: Modern GraphQL Tutorial
 date: "2021-05-23T16:00:00.000Z"
 ---
 
+![Source: [Apollo GraphQL Blog](https://www.apollographql.com/blog/graphql/examples/what-is-a-graphql-query-graphql-query-using-apollo-explorer/)](graphql.png)
+
 After this tutorial, you will be able to:
 
 - Create your own GraphQL schema
@@ -14,7 +16,7 @@ After this tutorial, you will be able to:
 
 Before we start, let me give you a brief introduction to GraphQL. GraphQL is a _query language_ for API's. It is a more efficient alternative to traditional RESTful API's since it is:
 
-1. **Faster** - with user-defined specification for data fetching, GraphQL prevents clients from underfetching or overfetching, making network requests more efficient.
+1. **Faster** - with user-defined specification for data fetching, GraphQL prevents clients from under-fetching or over-fetching, making network requests more efficient.
 2. **More Flexible** - user can define their own schemas and data types to share between frontend and backend.
 3. **Faster Production** - with schemas acting as a contract for data fetching between the frontend team and backend team, both teams can do their individual work without further communication.
 

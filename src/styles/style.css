@@ -257,6 +257,12 @@ ul a {
   text-decoration: none;
 }
 
+figcaption * {
+  color: rgb(158, 158, 158);
+  text-align: center;
+  font-size: 12px;
+}
+
 footer {
   display: flex;
   align-items: center;

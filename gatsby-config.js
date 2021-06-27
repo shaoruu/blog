@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `A Developer's Blog`,
+    title: `iantheearl.io`,
     author: {
       name: `Ian Huang`,
       summary: `founder of MineJS, a web-dev enthusiast and a part-time rustacean.`,
@@ -69,7 +69,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 630,
+              maxWidth: 1080,
+              showCaptions: true,
+              markdownCaptions: true,
             },
           },
           {
@@ -198,6 +200,7 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-gatsby-cloud`,
+    `gatsby-plugin-styled-components`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

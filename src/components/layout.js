@@ -17,6 +17,8 @@ const Layout = ({ location, title, children }) => {
   } else {
     header = (
       <Link className="header-link-home" to="/">
+        {"◃"}
+        <span style={{ margin: "0 5px" }} />
         {title}
       </Link>
     )
