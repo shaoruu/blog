@@ -175,6 +175,10 @@ pre {
   border-radius: 15px;
 }
 
+code {
+  line-height: 1.7 !important;
+}
+
 ul,
 ol {
   margin-left: var(--spacing-0);
@@ -239,10 +243,17 @@ table thead tr th {
 
 a {
   color: var(--color-primary);
+  /* text-decoration: none; */
+  /* cursor: pointer; */
 }
 
 a:hover,
 a:focus {
+  /* text-decoration: underline; */
+  /* padding-left: 5px; */
+}
+
+ul a {
   text-decoration: none;
 }
 
@@ -303,6 +314,10 @@ a:focus {
   margin-bottom: var(--spacing-0);
 }
 
+.bio a {
+  margin: 0 5px;
+}
+
 .bio-avatar {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
@@ -325,6 +340,10 @@ a:focus {
 
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
+}
+
+.anchor-custom {
+  color: var(--color-accent);
 }
 
 /* Media queries */

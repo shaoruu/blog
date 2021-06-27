@@ -10,4 +10,4 @@ import "./src/styles/style.css"
 // import "prismjs/themes/prism.css"
 
 // Custom prism style
-require("./src/styles/prism-duotone-dark.css")
+require("./src/styles/prism-dracula.css")
