@@ -50,17 +50,20 @@ const Bio = () => {
           Written by <strong>{author.name}</strong>, {author?.summary || null}
           {` `}
           Follow me!
-          <a href={"https://github.com/" + social.github} class="item-link">
-            <i class="fab fa-github"></i>
+          <a href={"https://github.com/" + social.github} className="item-link">
+            <i className="fab fa-github"></i>
           </a>
           <a
             href={"https://www.linkedin.com/in/" + social.linkedin}
-            class="item-link"
+            className="item-link"
           >
-            <i class="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin"></i>
           </a>
-          <a href={"https://github.com/" + social.twitter} class="item-link">
-            <i class="fab fa-twitter"></i>
+          <a
+            href={"https://github.com/" + social.twitter}
+            className="item-link"
+          >
+            <i className="fab fa-twitter"></i>
           </a>
         </p>
       )}

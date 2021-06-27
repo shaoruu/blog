@@ -39,6 +39,23 @@ const Layout = ({ location, title, children }) => {
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
+          {/* <a
+            href="https://www.buymeacoffee.com/?via=iantheearl"
+            target="_blank"
+            style={{
+              marginLeft: 12,
+            }}
+          >
+            <img
+              src="https://cdn.buymeacoffee.com/buttons/default-orange.png"
+              alt="Buy Me A Coffee"
+              style={{
+                height: "41 !important",
+                width: "174px !important",
+                borderRadius: 8,
+              }}
+            />
+          </a> */}
         </footer>
       </div>
     </>

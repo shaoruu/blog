@@ -257,6 +257,11 @@ ul a {
   text-decoration: none;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+}
+
 /* Custom classes */
 
 .global-wrapper {
