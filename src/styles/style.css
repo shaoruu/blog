@@ -55,7 +55,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #dcd6f7;
+  --color-primary: #00b8a9;
   --color-text: #f1f3f8;
   --color-text-light: #ffffff;
   --color-heading: #86a6df;
@@ -242,7 +242,7 @@ table thead tr th {
 /* Link */
 
 a {
-  color: var(--color-primary);
+  color: var(--color-accent);
   /* text-decoration: none; */
   /* cursor: pointer; */
 }
