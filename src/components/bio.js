@@ -49,7 +49,7 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong>, {author?.summary || null}
           {` `}
-          Follow me!
+          Follow me on
           <a href={"https://github.com/" + social.github} className="item-link">
             <i className="fab fa-github"></i>
           </a>
