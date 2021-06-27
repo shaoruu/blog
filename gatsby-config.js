@@ -3,7 +3,7 @@ module.exports = {
     title: `A Developer's Blog`,
     author: {
       name: `Ian Huang`,
-      summary: `a web-dev enthusiast and a part-time rustacean.`,
+      summary: `founder of MineJS, a web-dev enthusiast and a part-time rustacean.`,
     },
     description: `Whatever is going through Ian's mind`,
     siteUrl: `https://blog.iantheearl.io/`,

@@ -323,11 +323,34 @@ footer {
   margin: 0 5px;
 }
 
+.bio-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.bio-intro p {
+  margin: 5px 0;
+  color: rgb(156, 156, 156);
+}
+
+.bio-intro img {
+  width: 10px;
+}
+
 .bio-avatar {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
   min-width: 50px;
   border-radius: 100%;
+}
+
+.bio-scenery {
+  margin: auto;
+  border-radius: 12px;
+  width: 100%;
 }
 
 .blog-post header h1 {
