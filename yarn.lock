@@ -6294,6 +6294,14 @@ gatsby-remark-autolink-headers@^4.5.0:
     mdast-util-to-string "^2.0.0"
     unist-util-visit "^2.0.3"
 
+gatsby-remark-codepen@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-codepen/-/gatsby-remark-codepen-0.1.1.tgz#5bf5d21e15a08339c467d89af8a179dd08a65011"
+  integrity sha512-J8gABcofbAC9C30YG5nkWeCFlqDbEvLceCnxqPFX8mCIGrNTSh3AecI7yFjIdXH+MgrDf889t+IVbrHrLTmP1g==
+  dependencies:
+    babel-runtime "^6.26.0"
+    unist-util-visit "^1.1.3"
+
 gatsby-remark-copy-linked-files@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/gatsby-remark-copy-linked-files/-/gatsby-remark-copy-linked-files-3.2.0.tgz#aedfb7c05c0833fcb9e807127a08be101654503b"
@@ -13281,7 +13289,7 @@ unist-util-visit-parents@^3.0.0:
     "@types/unist" "^2.0.0"
     unist-util-is "^4.0.0"
 
-unist-util-visit@^1.0.0, unist-util-visit@^1.1.0, unist-util-visit@^1.4.1:
+unist-util-visit@^1.0.0, unist-util-visit@^1.1.0, unist-util-visit@^1.1.3, unist-util-visit@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-1.4.1.tgz#4724aaa8486e6ee6e26d7ff3c8685960d560b1e3"
   integrity sha512-AvGNk7Bb//EmJZyhtRUnNMEpId/AZ5Ph/KUpTI09WHQuDZHKovQ1oEv3mfmKpWKtoMzyMC4GLBm1Zy5k12fjIw==
