@@ -38,9 +38,9 @@ const Layout = ({ location, title, children }) => {
         <header className="global-header">{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          <a href="https://www.gatsbyjs.com" style={{ marginLeft: 5 }}>
-            Gatsby
+          © {new Date().getFullYear()}, Built by
+          <a href="https://github.com/shaoruu" style={{ marginLeft: 5 }}>
+            @shaoruu
           </a>
           {/* <a
             href="https://www.buymeacoffee.com/?via=iantheearl"
@@ -53,7 +53,7 @@ const Layout = ({ location, title, children }) => {
               src="https://cdn.buymeacoffee.com/buttons/default-orange.png"
               alt="Buy Me A Coffee"
               style={{
-                height: "41 !important",
+                height: "41px !important",
                 width: "174px !important",
                 borderRadius: 8,
               }}
